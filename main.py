@@ -23,7 +23,7 @@ def printNumbers():
 
     indexNumber()
 
-def indexNumber():
+def indexNumber(): #specify number
     index = input("Which number would you like to see? ")
     index=int(index)
     if(index<=len(Fibonacci)):
@@ -34,4 +34,4 @@ def indexNumber():
     index=int(index)
 
 
-generateNumbers()
+generateNumbers() 
